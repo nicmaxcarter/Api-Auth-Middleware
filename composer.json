@@ -1,0 +1,24 @@
+{
+    "name": "nicmaxcarter/apiauthmiddleware",
+    "description": "Simple Auth Middleware for api with Slim PHP projects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nicmaxcarter\\Apiauthmiddleware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Max Carter",
+            "email": "nicmaxcarter@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "slim/psr7": "^1.5",
+        "slim/slim": "4.*"
+    }
+}
