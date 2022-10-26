@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nicmaxcarter\\Apiauthmiddleware\\": "src/"
+            "Nicmaxcarter\\ApiAuthMiddleware\\": "src/"
         }
     },
     "authors": [
